@@ -9,10 +9,10 @@ void main() {
 	float result;
 	float D = 2.54;
 
-	print("Âגוהטעו קטסכמ צוכûץ ה‏ילמג -> ");
+	printf("Âגוהטעו קטסכמ צוכûץ ה‏ילמג -> ");
 	scanf("%d", &dym);
 
 	result = D * dym;
 
-	printf("%d ה‏ילמג - ‎עמ %.1f סל", dym, result);
+	printf("%d ה‏ילמג - ‎עמ %.2f סל", dym, result);
 }
